@@ -1,3 +1,41 @@
-p {
-    font-size: 40x;
+body {
+    margin: 0;
+    padding: 0;
 }
+
+.max-width {
+    margin: 0 calc((100% - 1200px)/2);
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 10px 0 10px 0;
+}
+
+button {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+
+
