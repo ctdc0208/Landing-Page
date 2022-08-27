@@ -9,7 +9,7 @@ button {
 }
 
 .max-width {
-    padding: 0 calc((100% - 1200px)/2);
+    margin: 0 calc((100% - 1200px)/2);
 }
 
 header {
@@ -120,4 +120,26 @@ header {
     color: gray;
     text-align: center;
     margin-top: 10px;
+}
+
+.quote-container {
+    padding: 70px 0 70px 0;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    width: 900px;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 26px;
 }
