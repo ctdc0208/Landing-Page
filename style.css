@@ -9,7 +9,7 @@ button {
 }
 
 .max-width {
-    margin: 0 calc((100% - 1200px)/2);
+    padding: 0 calc((100% - 1200px)/2);
 }
 
 header {
@@ -75,4 +75,49 @@ header {
     border-radius: 5px;
     width: 100px;
     height: 40px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 50px 0;
+}
+
+.random-information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0 20px 0;
+}
+
+.img-subtext-container {
+    width: 150px;
+    height: 250px;
+}
+
+.blue-box {
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #3882f6;
+    border-style: solid;
+}
+
+.second-subtext {
+    width: 200px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
 }
