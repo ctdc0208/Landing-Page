@@ -186,3 +186,14 @@ header {
     background-color: transparent;
     margin-right: 50px;
 }
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    color: #F9FAF8;
+}
